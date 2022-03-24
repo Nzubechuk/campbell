@@ -1,0 +1,731 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    margin: auto;
+    position: relative;
+}
+
+.para-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/rich-wilson-jonathan-mehring-weight.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.cy{
+    margin-left: .2em;
+}
+
+.first-para{
+    width: 60%;
+    padding: 30px;
+    margin: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 4vmax;
+    border: 1px solid white;
+    background-color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: skyblue;
+}
+
+nav{
+   
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.signin{
+    color: white;
+}
+
+.ike{
+    color: white;
+}
+.cr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+}
+.cars-helmet{
+    margin-top: 80px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.car{
+    text-align: center;
+}
+.cars-kill{
+    font-weight: bold;
+    font-size: 7vmin;
+    text-align: center;
+}
+
+.quote{
+    font-size: 3vmin;
+    text-align: center;
+}
+.jessie{
+    font-weight: bold;
+}
+.test-arrow{
+    width: 30px;
+    height: 30px;
+}
+.fitness{
+    width: 100%;
+    height: 100%;
+}
+.test{
+    text-align: left;
+}
+.test-zone{
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.best-fitness{
+    font-size: 7vmin;
+    font-weight: bold;
+}
+.tara{
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+.gear-year{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bi-members{
+    width: 250px;
+    height: 250px;
+}
+.smaller{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: black;
+}
+.seplavy{
+    font-size: 2.5vmin;
+    font-weight: bold;
+    color: black;
+}
+
+.access-section{
+    margin-top: 100px;
+}
+.all-access-members{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.all-access-head{
+    font-size: 5vmin;
+    font-weight: bold;
+}
+
+.all-arrow{
+    width: 30px;
+    height: 30px;
+}
+
+.alcho{
+    width: 250px;
+    height: 250px;
+}
+.report{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: black;
+}
+.travel-awards{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.climb{
+    text-align: center; 
+}
+.awards{
+    margin-left: 50px;
+    padding: 50px;
+}
+.world{
+    font-size: 3.5vmin;
+}
+.caitlin{
+    font-weight: bold;
+}
+
+.ridestronger{
+    margin-top: 150px;
+}
+.ride-arrow{
+ width: 30px;
+ height: 30px;   
+}
+
+.ride-stronger{
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.cyclist{
+    margin-left: 50px;
+}
+.consider{
+    font-size: 4vmin;
+    font-weight: bold;
+    color: black;
+}
+.the{
+    font-size: 4vmin;
+    font-weight: bold;
+    color: black;
+}
+.ridestrong{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.wisconsin{
+    margin-top: 150px;
+}
+.wis{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    background-color: black;
+}
+.bikepacking{
+    margin-left: 50px;
+    padding: 50px;
+}
+.helped{
+    text-align: center;
+}
+.trip{
+    font-size: 4.5vmin;
+    font-weight: bold;
+    color: white;
+}
+.therapy{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: white;
+}
+
+.latest-sec{
+    margin-top: 150px;
+}
+
+.est-arrow{
+    width: 30px;
+    height: 30px;
+}
+
+.latest-reviews{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-around;
+}
+.cargo{
+    width: 250px;
+    height: 250px;
+}
+.city{
+    font-size: 4vmin;
+    font-weight: bold;
+    color: black;
+}
+.trending{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.trend-arrow{
+    width: 30px;
+    height: 30px;
+}
+.trend{
+    text-align: left;
+    font-weight: bold;
+}
+.about{
+    font-size: 4vmin;
+}
+.can{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: black;
+}
+.ridetuscany{
+    width: 100%;
+    height: 100%;
+}
+.field{
+    text-align: center;
+    font-size: 5vmin;
+}
+.editors{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5em;
+}
+
+.more-sec{
+    margin-top: 150px;
+}
+
+.more-arrow{
+    width: 30px;
+    height: 30px;
+}
+
+.more-from-bicycling{
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.more-nation{
+    display: flex;
+    justify-content: space-around;
+}
+.national{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: black;
+}
+.three{
+    width: 250px;
+    height: 250px;
+}
+
+.marco-pantani{
+    display: flex;
+    justify-content: space-around;
+}
+
+.new{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: black;
+}
+.manriding{
+    display: flex;
+    justify-content: space-around;
+}
+.adult{
+    font-size: 3vmin;
+    font-weight: bold;
+    color: black;
+}
+
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+.footer{
+    font-size: 3vmin;
+    display: flex;
+    align-items: center;
+}
+
+.hearst{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sell-personal{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: 2px solid white;
+}
+.footer{
+    justify-content: space-around;
+}
+.let{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 3em;
+}
+.hearst{
+    margin-left: 3em;
+}
+.part{
+    font-size: .9em;
+    margin-left: 6em;
+}
+.p{
+    margin-left: 6.5em;
+}
+.privacy{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.my{
+    margin: 1em;
+}
+
+@media screen and (max-width:375px){
+    .para-container{
+        width: 170%;
+    }
+    .cars-helmet{
+        display: block;
+        padding: 0;
+        background-color: white;
+        border: none;
+    }
+    .navbar{
+        display: block;
+    }
+    .cars-kill{
+        color: black;
+    }
+    .jessie{
+        color: black;
+    }
+    .ride-helmet{
+        width: 90%;
+        margin-left: 1em;
+    }
+    .quote{
+        font-size: 3vmax;
+        color: black;
+    }
+    .tara{
+        font-size: 2.5vmax;
+    }
+   .bi-members{
+       width: 150px;
+       height: 150px;
+       justify-content: space-around;
+       align-items: center;
+   }
+   .smaller{
+       text-align: center;
+       font-size: 2vmax;
+   }
+   .seplavy{
+       text-align: center;
+       font-size: 2vmax;
+   }
+   .alcho{
+    width: 150px;
+    height: 150px;
+    justify-content: space-around;
+    padding: 0%;
+   }
+   .report{
+       font-size: 2vmax;
+   }
+   .travel-awards{
+       display: block;
+       align-items: center;
+       border: none;
+       background-color: white;
+       color: black;
+   }
+   .world{
+       font-size: 3vmax;
+   }
+   .awards{
+       width: 100%;
+       padding: 0;
+       margin: 0;
+   }
+   .cyclist{
+       width: 150px;
+       justify-content: space-around;
+       text-align: center;
+       margin: 0;
+       padding: 0;
+   }
+   .wis{
+       display: block;
+       border: none;
+       background-color: white;
+   }
+   .bikepacking{
+       width: 100%;
+       padding: 0;
+       margin: 0;
+   }
+   .trip{
+       font-size: 3vmax;
+       color: black;
+   }
+   .therapy{
+       font-size: 2.5vmax;
+       color: black;
+   }
+  .cargo{
+      width: 150px;
+      height: 150px;
+  }
+  .about{
+      font-size: 2.5vmax;
+  }
+  .can{
+      font-size: 2.5vmax;
+  }
+  .three{
+      width: 150px;
+      height: 150px;
+  }
+  .national{
+      font-size: 2vmax;
+  }
+  .new{
+      font-size: 2vmax;
+  }
+  .adult{
+      font-size: 2vmax;
+  }
+  .footer{
+      display: block;
+  }
+  .ng{
+      font-size: 4.5vmax;
+      margin-left: 1em;
+  }
+  .social{
+      padding: 10px;
+  }
+  .let{
+      display: grid;
+      grid-template-columns: auto auto;
+      margin: 1em;
+  }
+  .hearst{
+      margin: 1em;
+      font-size: 2vmax;
+  }
+  .part{
+      margin: 1.5em;
+  }
+  .p{
+      margin: 2em;
+      font-size: 2.5vmax;
+  }
+  .pri{
+      display: inline-block;
+  }
+  .in{
+      display: inline-block;
+  }
+  .sell-personal{
+      padding: 2px;
+      margin: 2px;
+  }
+}
+
+@media screen and (max-width:820px){
+    .para-container{
+        max-width: 100%;
+    }
+    .cars-helmet{
+        display: block;
+        padding: 0;
+        background-color: white;
+        border: none;
+    }
+}
+.cars-kill{
+    color: black;
+}
+.jessie{
+    color: black;
+}
+.ride-helmet{
+    width: 90%;
+    margin-left: 1em;
+}
+.quote{
+    font-size: 3vmax;
+    color: black;
+}
+.tara{
+    font-size: 2.5vmax;
+}
+.gear{
+    text-align: center;
+}
+.bi-members{
+   width: 150px;
+   height: 150px;
+   justify-content: space-around;
+   align-items: center;
+}
+.smaller{
+   text-align: center;
+   font-size: 2vmax;
+}
+.seplavy{
+   text-align: center;
+   font-size: 2vmax;
+}
+.alcho{
+width: 150px;
+height: 150px;
+justify-content: space-around;
+padding: 0%;
+}
+.report{
+   font-size: 2vmax;
+}
+.travel-awards{
+   display: block;
+   align-items: center;
+   border: none;
+   background-color: white;
+   color: black;
+}
+.world{
+   font-size: 3vmax;
+}
+.awards{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+.cyclist{
+   width: 150px;
+   justify-content: space-around;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+.wis{
+   display: block;
+   border: none;
+   background-color: white;
+}
+.bikepacking{
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+.trip{
+   font-size: 3vmax;
+   color: black;
+}
+.therapy{
+   font-size: 2.5vmax;
+   color: black;
+}
+.cargo{
+  width: 150px;
+  height: 150px;
+}
+.about{
+  font-size: 2.5vmax;
+}
+.can{
+  font-size: 2.5vmax;
+}
+.three{
+  width: 150px;
+  height: 150px;
+}
+.national{
+  font-size: 2vmax;
+}
+.new{
+  font-size: 2vmax;
+}
+.adult{
+  font-size: 2vmax;
+}
+.footer{
+  display: block;
+}
+.ng{
+  font-size: 4.5vmax;
+  margin-left: 1em;
+}
+.social{
+  padding: 10px;
+}
+.let{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 1em;
+}
+.hearst{
+  margin: 1em;
+  font-size: 2vmax;
+}
+.part{
+  margin: 1.5em;
+}
+.p{
+  margin: 2em;
+  font-size: 2.5vmax;
+}
+.pri{
+  display: inline-block;
+}
+.in{
+  display: inline-block;
+}
+.sell-personal{
+  padding: 2px;
+  margin: 2px;
+}
+
